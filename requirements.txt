@@ -1,3 +1,6 @@
 tweepy
 textblob
 lithops
+jupyter
+pandas
+pandasql
