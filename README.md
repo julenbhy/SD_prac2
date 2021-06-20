@@ -15,4 +15,4 @@
 
 ```Before executing, you  have to install the packages at the requirements.txt file (use pip install -r requirements.txt)```
 
-```Finally, open the Stage3Notebook.ipynb file and execute the whole program, where you can also create new plots.```
+```Finally, open the [Stage3Notebook.ipynb](https://github.com/julenbhy/SD_prac2/blob/main/Stage3Notebook.ipynb) file and execute the whole program, where you can also create new plots.```
