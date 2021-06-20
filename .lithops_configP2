@@ -1,13 +1,13 @@
 lithops:
-    storage_bucket: prac2-bucket
+    storage_bucket: 
  
 ibm_cf:
-    endpoint    : https://us-east.functions.cloud.ibm.com
-    namespace   : dev
-    api_key     : 5080f688-8e24-41b3-acaf-ea41fe746c7f:HxPMJS4esFetDSEid34HUACtNlFE7BenokIUMHJcXoEKJj3CD7ycSiGKqSmVnZ4I
+    endpoint    : 
+    namespace   : 
+    api_key     : 
  
 
 ibm_cos:
-    region : us-east
-    access_key: a9b60371829d43ef918b0e06202eea30
-    secret_access: 5dde54d67df0a011a491324a24c3284ecabd8e170dfc9a10
+    region : 
+    access_key: 
+    secret_access: 
