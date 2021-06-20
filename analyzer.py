@@ -5,7 +5,6 @@ import json
 import csv
 import pandas as pd
 from textblob import TextBlob
-import lithops
 from lithops import Storage
 from lithops.multiprocessing import Pool
 
@@ -20,7 +19,7 @@ BUCKET = "prac2-bucket"
 
 
 # select the numbert of tweets to analize of each issue
-NUM_TWEETS = 10
+NUM_TWEETS = 1000
 
 # the list of issues to analyze
 ISSUES=[("palestine",),
