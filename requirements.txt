@@ -2,5 +2,5 @@ tweepy
 textblob
 lithops
 jupyter
-pandas
-pandasql
+pandas>=1.0.5
+numpy>=1.16.5   

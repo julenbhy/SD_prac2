@@ -18,10 +18,11 @@ ACCESS_TOKEN_SECRET = "Ma7DFP6XSXR0ocw0S0JhJJk1F2uwS5FUM1kdQxYGtaAiV"
 
 BUCKET = "prac2-bucket"
 
-NUM_TWEETS = 1000
 
-#ISSUES=[("palestine",)]
+# select the numbert of tweets to analize of each issue
+NUM_TWEETS = 10
 
+# the list of issues to analyze
 ISSUES=[("palestine",),
         ("gaza",),
         ("israel",),
@@ -66,8 +67,6 @@ def sentiment_analyzer(tweet_list, issue):
 def get_tweets (issue):
 
     global NUM_TWEETS
-
-    #tweet_list =  {}
     i=0
 
     #authentication on twitter
@@ -155,6 +154,6 @@ def average_sentiment(issue):
 
 if __name__ == '__main__':
     with Pool() as p:
-        p.starmap(get_tweets, ISSUES)#,("abascal",100,),("perro sanchez",100)]))
+        p.starmap(get_tweets, ISSUES)
         p.starmap(analize_tweets, ISSUES)
 
