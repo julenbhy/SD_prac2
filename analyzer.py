@@ -9,12 +9,13 @@ from lithops import Storage
 from lithops.multiprocessing import Pool
 
 
-###   constant declarations   ###
+###   twitter credential   ###
 CONSUMER_KEY = "cUTbEOCImSDyFH4GAFxNuHjhx"
 CONSUMER_SECRET = "RxSQhoUyOkcXV1oJEpJofk6TLhoiLooJsYRfEjg2dP3mU1ul0N"
 ACCESS_TOKEN = "566149666-y9lr86gtUGUlVYkqGp8zFVgWonfniPqcdv9XMYI2"
 ACCESS_TOKEN_SECRET = "Ma7DFP6XSXR0ocw0S0JhJJk1F2uwS5FUM1kdQxYGtaAiV"
 
+###  IBM COS bucket  ###
 BUCKET = "prac2-bucket"
 
 
