@@ -7,7 +7,7 @@
 
 ## EXECUTION:
 
-First, you must introduce your own IBM Cloud credentias on the [.config_lihopsP2](https://github.com/julenbhy/SD_prac2/blob/main/.config_lihopsP2) file
+First, you must introduce your own IBM Cloud credentias on the [.config_lithopsP2](https://github.com/julenbhy/SD_prac2/blob/main/.config_lithopsP2) file
 
 Then, you must introduce your [Twitter (tweepy) creedentials](https://github.com/julenbhy/SD_prac2/blob/main/analyzer.py#L12) at the analyzer.py file
 
