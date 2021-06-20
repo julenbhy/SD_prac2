@@ -11,7 +11,7 @@ First, you must introduce your own IBM Cloud credentias on the [.config_lithopsP
 
 Then, you must introduce your [Twitter (tweepy) creedentials](https://github.com/julenbhy/SD_prac2/blob/main/analyzer.py#L12) at the analyzer.py file
 
-At the analyzer.py file, select the issues to analyze at the [ISSUES](https://github.com/julenbhy/SD_prac2/blob/main/analyzer.py#L26) list and the [number of tweets](https://github.com/julenbhy/SD_prac2/blob/main/analyzer.py#L23) to analyze of each issue
+At the analyzer.py file, select the issues to analyze at the [ISSUES](https://github.com/julenbhy/SD_prac2/blob/main/analyzer.py#L26) list and the [number of tweets](https://github.com/julenbhy/SD_prac2/blob/main/analyzer.py#L23) to analyze of each issue. You also need to specify the COS bucket were the dataset will be stored at [BUCKET](https://github.com/julenbhy/SD_prac2/blob/main/analyzer.py#L19)
 
 Before executing, you  have to install the packages at the [requirements.txt](https://github.com/julenbhy/SD_prac2/blob/main/requirements.txt) file (use pip install -r requirements.txt)
 
